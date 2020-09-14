@@ -1,0 +1,75 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+}
+
+#tooltips {
+    border-radius: 25px;
+    height: 30px;
+    text-align: center;
+    //border-style: solid;
+    border-width: 1.4px;
+    //border-color: greenyellow;
+    background-color: #d6268d;
+}
+
+#tooltips-ext {
+    border-radius: 25px;
+    //height: 30px;
+    text-align: center;
+    //border-style: solid;
+    border-width: 1.4px;
+    //border-color: greenyellow;
+    background-color: #d6268d;
+}
+
+div {
+    padding-top: 6px;
+}
+
+.grid-body {
+    background-color: #4c8dff;
+    border-style: groove;
+    border-width: 5px;
+    padding-bottom: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#region {
+    background-color: #cb2fda;
+    // border-style: dashed;
+    // border-width: 5px;
+    // border-color: rgb(201, 88, 191);
+    padding: 6px;
+    text-align: center;
+    border-radius: 25px;
+    border-bottom: inset;
+    border-top: inset;
+    border-left: inset;
+    border-right: inset;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+/* ion-col {
+    --ion-grid-column-padding: 5px;
+    --ion-grid-column-padding-xs: 5px;
+    --ion-grid-column-padding-sm: 5px;
+    --ion-grid-column-padding-md: 5px;
+    --ion-grid-column-padding-lg: 5px;
+    --ion-grid-column-padding-xl: 5px;
+    --ion-grid-columns: 50;
+  } */
+
+ion-content {
+    // --background: #1ed118;
+    //--color: #3880ff;
+    --keyboard-offset: 0px;
+    --offset-bottom: 0px;
+    --offset-top: 0px;
+    --padding-bottom: 0px;
+    --padding-end: 0px;
+    --padding-start: 0px;
+    --padding-top: 0px;
+}

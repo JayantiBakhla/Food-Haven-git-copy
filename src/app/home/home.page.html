@@ -1,0 +1,83 @@
+<ion-header [translucent]="false">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title style="padding-left: 90px;"><b>Food Haven</b></ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <ion-slides mode="md" pager="md" scrollbar="md">
+        <ion-slide>
+            <div class="container">
+                <img src="../../assets/images/food-3.jpg" style="width: 100%; height: 100%;" />
+            </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="container">
+                <img src="../../assets/images/food-3.jpg" style="width: 100%; height: 100%;" />
+            </div>
+        </ion-slide>
+        <ion-slide>
+            <div class="container">
+                <img src="../../assets/images/food-3.jpg" style="width: 100%; height: 100%;" />
+            </div>
+        </ion-slide>
+    </ion-slides>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" style="padding-bottom: 60px;">
+        <ion-fab-button color="secondary">
+            <ion-icon name="person"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+        <ion-fab-button color="secondary">
+            <ion-icon name="cart"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
+
+    <table>
+        <tr>
+            <td></td>
+            <ion-card href="fourth" target="_parent">
+                <ion-card-header>
+                    <ion-card-subtitle>Cuisine</ion-card-subtitle>
+                    <ion-card-title>Select a cuisine of your choice</ion-card-title>
+                </ion-card-header>
+                <ion-card-content style="color: brown;">
+                    <ion-img src="../../assets/images/infood-1.jpg" style="padding-top: 5px;"></ion-img>
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card class="container-c1" href="third" target="_parent">
+                <ion-card-header class="container-card-header">
+                    <ion-card-subtitle>Cuisine</ion-card-subtitle>
+                    <ion-card-title>Select a cuisine of your choice</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-img src="../../assets/images/infood-2.jpg" style="padding-top: 5px;"></ion-img>
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card href="first" target="_parent">
+                <ion-card-header>
+                    <ion-card-subtitle>Cuisine</ion-card-subtitle>
+                    <ion-card-title>Select a cuisine of your choice</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-img src="../../assets/images/infood-3.jpg" style="padding-top: 5px;"></ion-img>
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card href="second" target="_parent">
+                <ion-card-header>
+                    <ion-card-subtitle>Cuisine</ion-card-subtitle>
+                    <ion-card-title>Select a cuisine of your choice</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                    <ion-img src="../../assets/images/infood-4.jpg" style="padding-top: 5px;"></ion-img>
+                </ion-card-content>
+            </ion-card>
+        </tr>
+    </table>
+</ion-content>

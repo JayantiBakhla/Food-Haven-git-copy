@@ -1,0 +1,8 @@
+{
+  "name": "faven",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
